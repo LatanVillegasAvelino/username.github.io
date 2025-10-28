@@ -1,0 +1,79 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComparaPrecios - Encuentra las mejores ofertas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ComparaPrecios</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+                <button id="search-button">Buscar</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Electrónica</a></li>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Supermercado</a></li>
+                    <li><a href="#">Moda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h2>Encuentra las mejores ofertas en un solo lugar</h2>
+                <p>Compara precios entre diferentes tiendas y ahorra</p>
+            </div>
+        </section>
+
+        <section class="highlighted-deals container">
+            <h2>Ofertas Destacadas</h2>
+            <div class="products-grid" id="highlighted-products">
+                <!-- Los productos destacados se cargarán aquí con JavaScript -->
+            </div>
+        </section>
+
+        <section class="categories container">
+            <h2>Categorías Populares</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/100" alt="Electrónica">
+                    <h3>Electrónica</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/100" alt="Hogar">
+                    <h3>Hogar</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/100" alt="Supermercado">
+                    <h3>Supermercado</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/100" alt="Moda">
+                    <h3>Moda</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 ComparaPrecios - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
